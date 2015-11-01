@@ -1,0 +1,29 @@
+{
+  "name": "mean-chat",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Webdown404/mean-chat",
+  "authors": [
+    "Webdown2 <que.babault@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  },
+  "install": {
+    "path": "client/libs",
+    "sources" : {
+      "bootstrap" : [
+        "bower_components/bootstrap/dist/css/bootstrap.css",
+        "bower_components/bootstrap/dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

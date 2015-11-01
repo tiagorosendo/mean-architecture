@@ -7,6 +7,8 @@ var port = process.env.PORT || 8888;
 app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'client', 'views'));
 
+app.use(express.static(path.resolve(__dirname, 'client')));
+
 app.get('/', function(req, res) {
     res.render('index.ejs');
 });
