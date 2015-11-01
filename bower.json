@@ -15,12 +15,13 @@
   ],
   "dependencies": {
     "angular": "~1.4.7",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.7"
   },
   "install": {
     "path": "client/libs",
-    "sources" : {
-      "bootstrap" : [
+    "sources": {
+      "bootstrap": [
         "bower_components/bootstrap/dist/css/bootstrap.css",
         "bower_components/bootstrap/dist/js/bootstrap.js"
       ]
