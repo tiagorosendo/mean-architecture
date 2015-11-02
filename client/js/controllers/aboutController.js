@@ -1,3 +1,3 @@
-contactController.jsmyApp.controller('aboutController', ['$scope', function ($scope) {
+myApp.controller('aboutController', ['$scope', function ($scope) {
 
 }]);
