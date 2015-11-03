@@ -5,3 +5,11 @@ body {
     padding: 40px 15px;
     text-align: center;
 }
+
+tr.ng-enter {
+    animation: bounceInUp 1s;
+}
+
+tr.ng-leave {
+    animation: bounceOut 1s;
+}
