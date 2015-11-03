@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var customerSchema = Schema({
-    fistname: String,
+    firstname: String,
     lastname: String,
     phone: String,
     address: {

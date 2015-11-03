@@ -3,6 +3,7 @@ var app = express();
 var path = require('path');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var methodOverride = require('method-override');
 
 var configDB = require('./server/config/database');
 
