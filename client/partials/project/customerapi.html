@@ -41,7 +41,7 @@
             <th>Phone</th>
             <th>Address</th>
             </thead>
-            <tr ng-repeat="customer in customers">
+            <tr ng-repeat="customer in customers | startFrom: (currentPage - 1) * pageSize | limitTo: pageSize">
                 <td>{{customer.lastname}}, {{customer.firstname}}</td>
                 <td>{{customer.phone}}</td>
                 <td>{{customer.address.street}}<br>
@@ -52,4 +52,5 @@
             </tr>
         </table>
     </div>
+    <pagination total-items="customers.length" ng-model="currentPage" items-per-page="pageSize"></pagination>
 </div>
