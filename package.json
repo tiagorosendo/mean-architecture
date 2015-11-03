@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Webdown404/mean-chat#readme",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "mongo": "^0.1.0",

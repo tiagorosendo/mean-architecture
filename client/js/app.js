@@ -1,6 +1,7 @@
 var myApp = angular.module('myApp', [
     'ngRoute',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ngResource'
 ]);
 
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
@@ -16,6 +17,10 @@ myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $
         .when('/contact', {
             templateUrl: 'partials/contact.html',
             controller: 'contactController'
+        })
+        .when('/project', {
+            templateUrl: 'partials/project/customerapi.html',
+            controller: 'projectController'
         })
         .otherwise({
             redirectTo: '/home'
