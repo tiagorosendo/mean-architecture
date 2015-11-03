@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Webdown404/mean-chat#readme",
   "dependencies": {
     "ejs": "^2.3.4",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.2.4"
   }
 }
