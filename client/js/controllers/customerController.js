@@ -1,4 +1,4 @@
-myApp.controller('projectController', function ($scope, Api) {
+myApp.controller('customerController', function ($scope, Api) {
     $scope.form = {};
     $scope.customers = [];
     $scope.pageSize = 5;

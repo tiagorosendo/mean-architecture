@@ -22,7 +22,8 @@
     "animate.css": "~3.4.0",
     "angular-animate": "~1.4.7",
     "bootbox.js": "~4.4.0",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "angular-socket-io": "~0.7.0"
   },
   "install": {
     "path": "client/libs",

@@ -2,7 +2,8 @@ var myApp = angular.module('myApp', [
     'ngRoute',
     'ui.bootstrap',
     'ngResource',
-    'ngAnimate'
+    'ngAnimate',
+    'btford.socket-io'
 ]);
 
 myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
@@ -19,9 +20,13 @@ myApp.config(['$routeProvider', '$locationProvider', function ($routeProvider, $
             templateUrl: 'partials/contact.html',
             controller: 'contactController'
         })
-        .when('/project', {
-            templateUrl: 'partials/project/customerapi.html',
-            controller: 'projectController'
+        .when('/customer', {
+            templateUrl: 'partials/customer.html',
+            controller: 'customerController'
+        })
+        .when('/chat', {
+            templateUrl: 'partials/chat.html',
+            controller: 'chatController'
         })
         .otherwise({
             redirectTo: '/home'
